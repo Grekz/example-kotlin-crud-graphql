@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f788ede7-a211-4d43-961b-e38427fade34" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a8JabXLv86vhnwKY6ZJsHsDB9J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.grekz.crudKotlin.resolver" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f788ede7-a211-4d43-961b-e38427fade34" name="Default Changelist" comment="" />
+      <created>1586111351785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586111351785</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="217" key="#Other_File_Types" timestamp="1586111972016">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="217" key="#Other_File_Types/0.23.1792.1097@0.23.1792.1097" timestamp="1586111972016" />
+    <state x="592" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586111873666">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="592" y="381" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1586111873666" />
+    <state x="434" y="213" key="DBNavigator.MethodExecutionHistoryDialog" timestamp="1586111933641">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="434" y="213" key="DBNavigator.MethodExecutionHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586111933641" />
+    <state x="397" y="210" key="SettingsEditor" timestamp="1586111853657">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1586111853657" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586113116602">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1586113116602" />
+    <state x="561" y="258" key="search.everywhere.popup" timestamp="1586128510086">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="258" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1586128510086" />
+  </component>
+</project>

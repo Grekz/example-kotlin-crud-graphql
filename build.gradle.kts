@@ -24,6 +24,11 @@ repositories {
 }
 
 dependencies {
+	implementation("com.graphql-java:graphql-java-extended-scalars:1.0.1")
+	implementation("com.graphql-java:graphql-spring-boot-starter:5.0.2")
+	implementation("com.graphql-java:graphiql-spring-boot-starter:5.0.2")
+	implementation("com.graphql-java:voyager-spring-boot-starter:5.0.2")
+	implementation("com.graphql-java:graphql-java-tools:5.2.4")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
 	implementation("org.springframework.boot:spring-boot-starter-web")
