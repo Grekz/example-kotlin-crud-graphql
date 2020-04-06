@@ -16,33 +16,79 @@ $ gradle bootRun
 
 ## Manual testing
 
-```shell script
-## Get all tasks
-$ curl --location --request GET 'localhost:8080/v1/api/tasks'
+CRUD tests:
+Now you can test your changes on your API and go to the **Graph_i_QL** http://localhost:8080/graphiql
 
-## Get task by id
-$ curl --location --request GET 'localhost:8080/v1/api/tasks/1'
+Create:
 
-## Post task
-$ curl --location --request POST 'localhost:8080/v1/api/tasks/' \
---header 'Content-Type: application/json' \
---data-raw '{
-	"title": "new 2nd task", 
-	"status": 1, 
-	"priority": 1,
-	"description":"2244 blah blah task"
-}'
+```graphql
+mutation {
+  createTask(
+    title: "He is cool Update"
+    description: "asdas"
+    status: 1
+    priority: 2
+  ) {
+    id
+    title
+    description
+    status
+  }
+}
+```
 
-## Update task
-$ curl --location --request PUT 'localhost:8080/v1/api/tasks/2' \
---header 'Content-Type: application/json' \
---data-raw '{
-	"title": "blah blah new 2nd task", 
-	"status": 1, 
-	"priority": 1,
-	"description":"2244 blah blah task"
-}'
+Read:
+All tasks
 
-## Delete task
-$ curl --location --request DELETE 'localhost:8080/v1/api/tasks/2'
+```graphql
+query {
+  getTasks {
+    id
+    title
+    description
+    status
+    priority
+  }
+}
+```
+
+Or task by ID
+
+```graphql
+query {
+  getTaskById(taskId: 1) {
+    id
+    title
+    description
+    status
+    priority
+  }
+}
+```
+
+Update:
+
+```graphql
+mutation {
+  updateTask(
+    taskId: 4
+    title: "He is cool Update"
+    description: "asdas"
+    status: 1
+    priority: 2
+  ) {
+    id
+    title
+    description
+    status
+  }
+}
+```
+
+Delete:
+
+```graphql
+mutation {
+  deleteTask(taskId: 4)
+}
 ```
